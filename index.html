@@ -1,38 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css"/> 
+    <link rel="stylesheet" href="css/style.css" />
     <title>Finsweet</title>
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <div class="main-header">
-                <div class="logo">
-                    <img src="https://res.cloudinary.com/ddeenlz7s/image/upload/v1653950662/Logo_o2hukq.png" alt="company logo" class="">
-                </div>
-                <div class="right-section">
-                    <div class="navigation">
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="https://benbash.github.io/Finsweet-services-page/">Services</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="road-assistance">
-                        <div class="icon">
-                            <img src="img/call.png" alt="road assistance">
-                        </div>
-                        <div class="inner-section">
-                            <p>Road Assistance</p>
-                            <p>1800 265 24 52</p>
-                        </div>
-                    </div>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container nav-wrapper">
+            <a href="index.html" class="logo">
+                <img src="https://res.cloudinary.com/ddeenlz7s/image/upload/v1653950662/Logo_o2hukq.png"
+                    alt="Finsweet logo">
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="main-nav" id="mainNav">
+                <a href="index.html">Home</a>
+                <a href="about.html" class="active">About Us</a>
+                <a href="service.html">Services</a>
+                <a href="#team">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <div class="road-assistance">
+                <img src="img/call.png" alt="Phone">
+                <div>
+                    <small>Road Assistance</small>
+                    <strong>1800 265 24 52</strong>
                 </div>
             </div>
         </div>
@@ -54,7 +58,7 @@
                     </div>
                 </div>
                 <div class="image-section">
-                    
+
                 </div>
             </div>
         </div>
@@ -69,40 +73,47 @@
                         <li>
                             <div class="flex">
                                 <div class="image-box">
-                                    <img src="https://res.cloudinary.com/lovelyfin00/image/upload/v1650377525/work%20images/Icon_5.png" alt="gear">
+                                    <img src="https://res.cloudinary.com/lovelyfin00/image/upload/v1650377525/work%20images/Icon_5.png"
+                                        alt="gear">
                                 </div>
                                 <div class="text-box">
                                     <h5>Convenient service</h5>
-                                    <p>Through True Rich Attended does no end it his mother since real had half every him.</p>
+                                    <p>Through True Rich Attended does no end it his mother since real had half every
+                                        him.</p>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="flex">
                                 <div class="image-box">
-                                    <img src="https://res.cloudinary.com/lovelyfin00/image/upload/v1650377585/work%20images/Icon_6.png" alt="">
+                                    <img src="https://res.cloudinary.com/lovelyfin00/image/upload/v1650377585/work%20images/Icon_6.png"
+                                        alt="">
                                 </div>
                                 <div class="text-box">
                                     <h5>Expert mechanics</h5>
-                                    <p>Through True Rich Attended does no end it his mother since real had half every him.</p>
+                                    <p>Through True Rich Attended does no end it his mother since real had half every
+                                        him.</p>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="flex">
                                 <div class="image-box">
-                                    <img src="https://res.cloudinary.com/ddeenlz7s/image/upload/v1653705490/Icon_e3e05v.png" alt="">
+                                    <img src="https://res.cloudinary.com/ddeenlz7s/image/upload/v1653705490/Icon_e3e05v.png"
+                                        alt="">
                                 </div>
                                 <div class="text-box">
                                     <h5>Transparent pricing</h5>
-                                    <p>Through True Rich Attended does no end it his mother since real had half every him.</p>
+                                    <p>Through True Rich Attended does no end it his mother since real had half every
+                                        him.</p>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="flex">
                                 <div class="text-box-1">
-                                    <a href="#" class="know-more">Know more about us <img src="https://res.cloudinary.com/ddeenlz7s/image/upload/v1653702435/Arrow_wib02d.png"></a>
+                                    <a href="#" class="know-more">Know more about us <img
+                                            src="https://res.cloudinary.com/ddeenlz7s/image/upload/v1653702435/Arrow_wib02d.png"></a>
                                 </div>
                             </div>
                         </li>
@@ -115,16 +126,16 @@
                             <input type="text" placeholder="Enter your location">
                         </div>
                         <div class="input-box">
-                            <input type="text" placeholder="Enter your location">
+                            <input type="text" placeholder="Enter your Vehicle">
                         </div>
                         <div class="input-box">
-                            <input type="text" placeholder="Enter your location">
+                            <input type="text" placeholder="Service Type">
                         </div>
                         <div class="input-box">
-                            <input type="text" placeholder="Enter your location">
+                            <input type="text" placeholder="Your phone number">
                         </div>
                         <div>
-                        <a href="#" class="orange-btn-1">Get a quote</a>
+                            <a href="#" class="orange-btn-1">Get a quote</a>
                         </div>
                     </form>
                 </div>
@@ -152,7 +163,7 @@
                     <div class="step-1-image">
                         <img src="img/step-1.png" alt="step-1 image">
                         <div class="Line-box">
-                        <img src="img/Line.png" alt="center line">
+                            <img src="img/Line.png" alt="center line">
                         </div>
                     </div>
                     <div class="step-1-heading">
@@ -168,7 +179,7 @@
                     <div class="step-2-image">
                         <img src="img/step-2.png" alt="step-2 image">
                         <div class="Line-box">
-                        <img src="img/Line.png">
+                            <img src="img/Line.png">
                         </div>
                     </div>
                     <div class="step-2-heading">
@@ -193,14 +204,14 @@
                         </div>
                     </div>
                 </div>
-            </div>   
+            </div>
         </div>
     </section>
 
     <section id="services-section">
         <div class="container">
             <h5>What we Offer</h5>
-            <h2>We offer full service auto repair & maintenance  </h2>
+            <h2>We offer full service auto repair & maintenance </h2>
             <div class="services flex justify-between">
                 <div class="service-box">
                     <div>
@@ -298,13 +309,31 @@
                         <h2 class="rating-amount">100%</h2>
                         <p>Customer Satisfaction</p>
                     </div>
-                </div>   
+                </div>
             </div>
         </div>
     </section>
     <section id="brand">
-            <div class="brands brand-flex">
-                <h2>Brands we Serve</h2>
+        <div class="brands brand-flex">
+            <h2>Brands we Serve</h2>
+            <div class="flex brand-section">
+                <div class="brand-images">
+                    <img src="img/brand-1.png" alt="brand img">
+                </div>
+                <div class="brand-images">
+                    <img src="img/brand-2.png" alt="brand img">
+                </div>
+                <div class="brand-images">
+                    <img src="img/brand-3.png" alt="brand img">
+                </div>
+                <div class="brand-images">
+                    <img src="img/brand-4.png" alt="brand img">
+                </div>
+                <div class="brand-images">
+                    <img src="img/brand-5.png" alt="brand img">
+                </div>
+            </div>
+            <div class="brands">
                 <div class="flex brand-section">
                     <div class="brand-images">
                         <img src="img/brand-1.png" alt="brand img">
@@ -322,38 +351,22 @@
                         <img src="img/brand-5.png" alt="brand img">
                     </div>
                 </div>
-                <div class="brands">
-                    <div class="flex brand-section">
-                        <div class="brand-images">
-                            <img src="img/brand-1.png" alt="brand img">
-                        </div>
-                        <div class="brand-images">
-                            <img src="img/brand-2.png" alt="brand img">
-                        </div>
-                        <div class="brand-images">
-                            <img src="img/brand-3.png" alt="brand img">
-                        </div>
-                        <div class="brand-images">
-                            <img src="img/brand-4.png" alt="brand img">
-                        </div>
-                        <div class="brand-images">
-                            <img src="img/brand-5.png" alt="brand img">
-                        </div>
-                    </div>
-                </div>
-            </div>                
-    </section>
-    
-    <section id="customer-section">
-            <div class="feedback-header">
-                <h1>Our customers say the nicest things<br>about our service</h1>
             </div>
+        </div>
+    </section>
+
+    <section id="customer-section">
+        <div class="feedback-header">
+            <h1>Our customers say the nicest things<br>about our service</h1>
+        </div>
         <div class="container">
             <div class="feedback-section">
                 <div class="feedback-1">
                     <div class="feedback-head">
                         <div class="feedback-img">
-                            <img class="feedback-img" src="https://res.cloudinary.com/dprw6oeba/image/upload/v1652133471/samples/person2_uxcgyh.png" alt="">
+                            <img class="feedback-img"
+                                src="https://res.cloudinary.com/dprw6oeba/image/upload/v1652133471/samples/person2_uxcgyh.png"
+                                alt="">
                         </div>
                         <div class="text">
                             <h3>Jonathan Vallem</h3>
@@ -361,13 +374,17 @@
                         </div>
                     </div>
                     <div class="feedback-answer">
-                        <h3>I have got my car repaired at Finsweet many<br> times before, they are good at what they do.<br> Not only did they repair my car in a short<br> comprehensive look on all the working.</h3>
+                        <h3>I have got my car repaired at Finsweet many<br> times before, they are good at what they
+                            do.<br> Not only did they repair my car in a short<br> comprehensive look on all the
+                            working.</h3>
                     </div>
                 </div>
                 <div class="feedback-2">
                     <div class="feedback-head">
                         <div class="feedback-img">
-                            <img class="feedback-img" src="https://res.cloudinary.com/dprw6oeba/image/upload/v1652133446/samples/person_wui0hh.png" alt="">
+                            <img class="feedback-img"
+                                src="https://res.cloudinary.com/dprw6oeba/image/upload/v1652133446/samples/person_wui0hh.png"
+                                alt="">
                         </div>
                         <div class="text">
                             <h3>Smith Johnson</h3>
@@ -375,18 +392,20 @@
                         </div>
                     </div>
                     <div class="feedback-answer">
-                        <h3>I have got my car repaired at Finsweet many<br> times before, they are good at what they do.<br> Not only did they repair my car in a short<br> comprehensive look on all the working.</h3>
+                        <h3>I have got my car repaired at Finsweet many<br> times before, they are good at what they
+                            do.<br> Not only did they repair my car in a short<br> comprehensive look on all the
+                            working.</h3>
                     </div>
                 </div>
             </div>
-            <div class="feedback-bottom"> 
+            <div class="feedback-bottom">
                 <div class="reviewline">
                     <a href="a">
                         <img src="./img/H-Line.png" alt="Horizontal line">
                         <img src="./img/H-Line.png" alt="Horizontal line">
                         <img class="orange-line" src="./img/Line Orange.png" alt="Orange Horizontal line">
                         <img src="./img/H-Line.png" alt="Horizontal line">
-                    </a>           
+                    </a>
                 </div>
                 <div class="sliders">
                     <a href="a">
@@ -395,9 +414,9 @@
                     </a>
                 </div>
             </div>
-        </div>     
+        </div>
     </section>
-    
+
     <section id="faq-section">
         <div class="main-section">
             <div class="faq">
@@ -407,21 +426,21 @@
                 <div class="question-head">
                     <p>How long should a car repair take?</p>
                     <div class="faq-1-icon">
-                         <img src="./img/minus.png" alt="minus symbol">
+                        <img src="./img/minus.png" alt="minus symbol">
                     </div>
                 </div>
                 <div class="question-answer">
-                    <h5>I have got my car repaired at Finsweet many times before, 
-                    they are good at what they do. Not only did they repair 
-                    my car I have got my car repaired at Finsweet I have 
-                    got my car repaired at Finsweet</h5>
+                    <h5>I have got my car repaired at Finsweet many times before,
+                        they are good at what they do. Not only did they repair
+                        my car I have got my car repaired at Finsweet I have
+                        got my car repaired at Finsweet</h5>
                 </div>
             </div>
             <div class="faq-2">
                 <div class="question-head-2">
                     <p>How do I schedule my car's appointment?</p>
                     <div class="faq-2-icon">
-                        <div class="faq-open">   
+                        <div class="faq-open">
                             <img src="./img/plus.png" alt="plus symbol">
                         </div>
                     </div>
@@ -431,7 +450,7 @@
                 <div class="question-head-2">
                     <p>What are the repair services provided?</p>
                     <div class="faq-2-icon">
-                        <div class="faq-open">     
+                        <div class="faq-open">
                             <img src="./img/plus.png" alt="plus symbol">
                         </div>
                     </div>
@@ -441,7 +460,7 @@
                 <div class="question-head-2">
                     <p>How do I find auto body shops near me?</p>
                     <div class="faq-2-icon">
-                        <div class="faq-open">     
+                        <div class="faq-open">
                             <img src="./img/plus.png" alt="plus symbol">
                         </div>
                     </div>
@@ -451,7 +470,7 @@
                 <div class="question-head-2">
                     <p>Genuine spare parts during car repair?</p>
                     <div class="faq-2-icon">
-                        <div class="faq-open">   
+                        <div class="faq-open">
                             <img src="./img/plus.png" alt="plus symbol">
                         </div>
                     </div>
@@ -459,56 +478,58 @@
             </div>
         </div>
     </section>
-    
-    <section id="footer-section">
-        <div class="container-4">
-            <div class="footer-box">
-                <div class="footer-left">
-                    <h3>Get in touch with us for your  service</h3>
-                    <div class="contact-image">
-                        <img src="./img/facebook.png" alt="Facebook logo">
-                        <img src="./img/Twitter.png" alt="Twitter logo">
-                        <img src="./img/instagram.png" alt="Instagram logo">
-                        <img src="./img/linkedin.png" alt="LinkedIn logo">
-                    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-main">
+            <div class="footer-brand">
+                <h2>Get in touch with us for your service</h2>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Twitter">t</a>
+                    <a href="#" aria-label="Instagram">ig</a>
+                    <a href="#" aria-label="LinkedIn">in</a>
                 </div>
-                <div class="footer-right">
-                    <div class="contacts">
-                        <h5>Help line Number</h5>
-                        <h4>1800 265 24 52</h4>
-                    </div>
-                    <div class="contacts-1">
-                        <h5>Address</h5>
-                        <h4>NH 234   Public Square San Francisco  65368</h4>
-                    </div>
-                <div class="contacts-2">
-                    <h5>We are open</h5>
-                    <h4>Monday to Friday 9:00 AM to 10:00 AM</h4>
+            </div>
+
+            <div class="footer-contact">
+                <div>
+                    <small>Help line Number</small>
+                    <strong>1800 265 24 52</strong>
+                </div>
+                <div>
+                    <small>Address</small>
+                    <strong>NH 234 Public Square San Francisco 65368</strong>
+                </div>
+                <div>
+                    <small>We are open</small>
+                    <strong>Monday to Friday 9:00 AM to 10:00 AM</strong>
                 </div>
             </div>
         </div>
-        </div> 
-        <div class="main-footer">
-            <div class="footer-bottom">
-                <div class="logo">
-                    <img src="https://res.cloudinary.com/ddeenlz7s/image/upload/v1652625289/Logo_white_warvxf.png" alt="company logo">
-                </div>
-                <div class="footer-menu">
-                    <div class="menu">
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-                        <p>@CopyrightFinsweet 2021.</p>
-                    </div>
-                </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-inner">
+                <a href="index.html">
+                    <img src="https://res.cloudinary.com/ddeenlz7s/image/upload/v1652625289/Logo_white_warvxf.png"
+                        alt="Finsweet logo">
+                </a>
+
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="services.html">Services</a>
+                    <a href="#team">Blog</a>
+                    <a href="contact.html">Contact Us</a>
+                </nav>
+
+                <p>&copy; Copyright Finsweet 2023.</p>
             </div>
-        </div> 
-    </section>
+        </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
 </body>
+
 </html>
-
-
