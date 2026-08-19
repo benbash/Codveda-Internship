@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A responsive photo gallery built with HTML, CSS Flexbox and CSS Grid.">
+    <title>My Creative Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">
+                MyGallery
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">
+                ☰
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#gallery">Gallery</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="subtitle">MY PHOTO COLLECTION</p>
+                <h1>
+                    Capturing moments,
+                    <span>one photo at a time.</span>
+                </h1>
+                <p class="hero-text">
+                    Welcome to photo gallery. This project
+                    demonstrates how Flexbox and CSS Grid can be used to
+                    create a clean website that works across different
+                    screen sizes.
+                </p>
+                <a href="#gallery" class="hero-button">
+                    Explore Gallery
+                </a>
+            </div>
+        </section>
+
+
+        <!-- Gallery Section -->
+        <section class="gallery-section" id="gallery">
+            <div class="section-heading">
+                <p class="subtitle">MY COLLECTION</p>
+                <h2>Photo Gallery</h2>
+                <p>
+                    A collection of beautiful moments, places and
+                    experiences.
+                </p>
+            </div>
+            <div class="gallery-grid">
+                <article class="gallery-card featured">
+                    <img src="images/photo1.jpg" alt="Beautiful landscape with mountains">
+                    
+                    <div class="photo-info">
+                        <h3>Mountain View</h3>
+                        <p>Nature</p>
+                    </div>
+                </article>
+
+                <article class="gallery-card">
+                    <img src="images/photo2.jpg" alt="Ocean waves under a bright sky">
+
+                    <div class="photo-info">
+                        <h3>Ocean Breeze</h3>
+                        <p>Travel</p>
+                    </div>
+                </article>
+
+                <article class="gallery-card">
+                    <img src="images/photo3.jpg" alt="Green forest with sunlight passing through trees">
+
+                    <div class="photo-info">
+                        <h3>Into the Woods</h3>
+                        <p>Nature</p>
+                    </div>
+                </article>
+
+
+                <article class="gallery-card">
+                    <img src="images/photo4.jpg" alt="City buildings during sunset">
+
+                    <div class="photo-info">
+                        <h3>City Sunset</h3>
+                        <p>City</p>
+                    </div>
+                </article>
+
+                <article class="gallery-card">
+                    <img src="images/photo5.jpg" alt="Beautiful beach with clear water">
+
+                    <div class="photo-info">
+                        <h3>Beach Day</h3>
+                        <p>Travel</p>
+                    </div>
+                </article>
+
+                <article class="gallery-card">
+                    <img src="images/photo6.jpg" alt="Green leaves and plants in a garden">
+
+                    <div class="photo-info">
+                        <h3>Garden Life</h3>
+                        <p>Nature</p>
+                    </div>
+                </article>
+
+                <article class="gallery-card">
+                    <img src="images/photo7.jpg" alt="Road leading towards a mountain">
+
+                    <div class="photo-info">
+                        <h3>The Journey</h3>
+                        <p>Adventure</p>
+                    </div>
+                </article>
+
+                <article class="gallery-card">
+                    <img src="images/photo8.jpg" alt="Beautiful evening sky with clouds">
+
+                    <div class="photo-info">
+                        <h3>Evening Sky</h3>
+                        <p>Nature</p>
+                    </div>
+                </article>
+
+                <article class="gallery-card">
+                    <img src="images/photo9.jpg" alt="Beautiful evening sky with clouds">
+
+                    <div class="photo-info">
+                        <h3>Morning Moments</h3>
+                        <p>Lifestyle</p>
+                    </div>
+                </article>
+
+                <article class="gallery-card">
+                    <img src="images/photo10.jpg" alt="Beautiful evening sky with clouds">
+
+                    <div class="photo-info">
+                        <h3>Street Stories</h3>
+                        <p>Culture</p>
+                    </div>
+                </article>
+
+                <article class="gallery-card">
+                    <img src="images/photo11.jpg" alt="Beautiful evening sky with clouds">
+
+                    <div class="photo-info">
+                        <h3>City Lights</h3>
+                        <p>City</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="about-content">
+                <p class="subtitle">ABOUT THIS PROJECT</p>
+                <h2>Built with Flexbox & CSS Grid</h2>
+                <p>
+                    This responsive photo gallery was created using
+                    HTML, CSS and JavaScript. Flexbox is used for
+                    navigation and alignment, while CSS Grid is used
+                    to organize the photo gallery.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>
+            &copy; 2026 MyGallery. 
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
