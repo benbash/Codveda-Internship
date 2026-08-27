@@ -9,16 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Gentlemee/MealMate-Backend.git"
+    "url": "git+https://github.com/benbash/Codveda-Internship.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/Gentlemee/MealMate-Backend/issues"
+    "url": "https://github.com/benbash/Codveda-Internship/issues"
   },
-  "homepage": "https://github.com/Gentlemee/MealMate-Backend#readme",
+  "homepage": "https://github.com/benbash/Codveda-Internship#readme",
   "dependencies": {
     "axios": "^1.11.0",
     "dotenv": "^17.4.2",
