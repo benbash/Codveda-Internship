@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  font-family:
+    Arial,
+    Helvetica,
+    sans-serif;
+
+  background: #f5f7fb;
+  color: #1f2937;
+}
+
+.container {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  margin-bottom: 5px;
+}
+
+header p {
+  color: #6b7280;
+}
+
+.form-section,
+.meals-section {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+form {
+  display: grid;
+  gap: 15px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+
+  font: inherit;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+button {
+  padding: 11px 18px;
+
+  border: none;
+  border-radius: 6px;
+
+  background: #4f46e5;
+  color: white;
+
+  cursor: pointer;
+
+  font-weight: 600;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.meal-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(250px, 1fr));
+
+  gap: 20px;
+}
+
+.meal-card {
+  padding: 20px;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+}
+
+.meal-card p {
+  color: #6b7280;
+}
+
+.meal-card strong {
+  display: block;
+  margin: 15px 0;
+}
+
+.meal-card span {
+  display: inline-block;
+
+  padding: 5px 10px;
+
+  background: #eef2ff;
+  color: #4338ca;
+
+  border-radius: 20px;
+
+  font-size: 0.85rem;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+
+  margin-top: 20px;
+}
+
+.actions button:last-child {
+  background: #dc2626;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 25px 0;
+  }
+
+  .form-section,
+  .meals-section {
+    padding: 18px;
+  }
+}
