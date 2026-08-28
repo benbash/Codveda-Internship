@@ -1,0 +1,160 @@
+{
+  "info": {
+    "_postman_id": "584b63a2-9f93-4500-8561-215c57cf7bce",
+    "name": "FindIt-UserAuth",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "27319274",
+    "_collection_link": "https://go.postman.co/collection/27319274-584b63a2-9f93-4500-8561-215c57cf7bce?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Get Profile",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhOTE4NTU1M2I2NGFhZjZjOTcyOTBhMSIsImlhdCI6MTc4NzkyMjM2OSwiZXhwIjoxNzg4NTI3MTY5fQ.ZBoC77xl8zggGUrd5h_plpLjHBJ7C3xGLqspSioEkVg",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"email\": \"bash@example.com\",\r\n  \"password\": \"Password123\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5000/api/auth/profile ",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "auth",
+            "profile "
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Login User",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"email\": \"bash@example.com\",\r\n  \"password\": \"Password123\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5000/api/auth/login",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "auth",
+            "login"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Update Profile",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhOTE4NTU1M2I2NGFhZjZjOTcyOTBhMSIsImlhdCI6MTc4NzkyNTU3MCwiZXhwIjoxNzg4NTMwMzcwfQ.Sv1pWDti0LpM8TUh1Sk2n8Pbfm9CJzgLzxNVcSH8_Vk",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "PATCH",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"fullName\": \"Bash Pantong Haruna\",\r\n  \"email\": \"bash@example.com\",\r\n  \"phoneNumber\": \"09058912404\",\r\n  \"password\": \"Password123\",\r\n  \"state\": \"Borno\",\r\n  \"lga\": \"Hawal\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5000/api/auth/profile",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "auth",
+            "profile"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Register User",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"fullName\": \"Panse Nanribet Haruna\",\r\n  \"email\": \"panse@example.com\",\r\n  \"phoneNumber\": \"07058912404\",\r\n  \"password\": \"Password321\",\r\n  \"state\": \"Bauchi\",\r\n  \"lga\": \"Bauchi\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5000/api/auth/register",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "auth",
+            "register"
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "variable": [
+    {
+      "key": "auth_secret_01xc",
+      "secret": true
+    }
+  ]
+}
